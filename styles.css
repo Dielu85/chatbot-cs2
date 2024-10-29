@@ -1,0 +1,32 @@
+.iframe-container {
+    width: 1200px;
+    height: 80vh;
+    margin-top: 20px;
+    position: fixed;
+    top: 10%;
+    left: 10.5%;
+    border-radius: 32px;
+    border-color: hsl(220, 59%, 30%);
+    margin: 10px 10px;
+
+}
+.cs2-logo{
+    height: 35px;
+    width: 45px;
+    display: inline-flex;
+}
+.bg-custom{
+    background-color: hsl(220, 60%, 30%);
+}
+.body-custom{
+    background-color: hsl(37, 100%, 55%);
+}
+.mat-card {
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: rgb(207, 201, 201);
+}
+.mat-card#first-card {
+    padding: 0;
+}

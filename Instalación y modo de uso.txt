@@ -1,0 +1,39 @@
+1- Abra la terminal y ejecute: python -m venv env
+
+2- Active el env: env/scripts/activate 
+
+3- (En caso de que el paso 2 de error)
+
+Si nos da un error por falta de autorización ejecutamos como administrador 
+el siguiente comando en el PowerShell de Windows:
+
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+Y confirmamos con "s"
+Repetir el paso 2
+
+
+4- Instalar dependencias con el comando: pip install -r requirements.txt
+
+-----------------------------------------------------------------------------------
+
+ACTIVACIÓN DEL CHATBOT
+
+
+1- En la terminal, escriba: streamlit run app.py
+
+
+2- (opcional)
+
+Despues de iniciar Streamlit, abra con un servicio de Live Server el archivo "index.html"
+
+-----------------------------------------------------------------------------------
+
+MODO DE USO
+
+Este chatbot a sido diseñado para dar asístecia a jugadores nuevos de Counter Strike 2.
+Preguntele dudas y pidale ayuda para recibir consejo del Sargento Albatros,
+y si la lectura no es lo suyo, pidale un tutorial y gratamente le dara un videotutorial
+de lo que solicite.
+
+En caso de no quedar convencido con la respuesta dada, Repetir preguntas puede llevar a respuestas distintas. 
